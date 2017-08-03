@@ -1,0 +1,822 @@
+.wallet-content{
+    background:#ffffff;
+    width:100%;
+    margin-top: 56px;
+}
+.pay-title{
+    padding-top: 39px;
+    font-size:14px;
+    color:#666666;
+    line-height:14px;
+    text-align:center;
+    padding-bottom: 20px;
+}
+.pay-amount{
+    font-size:28px;
+    color:#333333;
+    line-height:28px;
+    text-align:center;
+}
+
+.pay-way{
+    margin-top: 35px;
+    border-radius:4px;
+    width:90%;
+    height:44px;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 44px;
+}
+
+.ali-background{
+    background:#3eb9f9;
+}
+
+.wx-background{
+    background:#0dd10d;
+}
+
+.card-background{
+    background:#ff8e30;
+}
+.bfb-background{
+    background:#ec1c24;
+}
+.pay-word{
+    display: inline-block;
+    background-size: auto;
+    width: 23px;
+    height: 18px;
+    line-height: 44px;
+    position: relative;
+    top: 2px;
+}
+
+.ali-word{
+    background: url(../img/ali_pay3.png) no-repeat;
+    background-size: contain;
+}
+
+.image-list{
+    position: absolute;
+    top: 64px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    text-align:center;
+}
+
+.default{
+    margin: auto;
+    position: absolute;
+    top: -123px; left: 0; bottom: 0; right: 0;
+    width: 154px;
+    height: 200px;
+    background: url(../img/400unusable.png) no-repeat;
+    background-size: 177px 154px;
+}
+
+.default-debt-list{
+    position: absolute;
+    top: 220px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    text-align:center;
+}
+
+.default-debt{
+    margin: auto;
+    position: absolute;
+    top: -253px; left: 0; bottom: 0; right: 0;
+    width: 154px;
+    height: 200px;
+    background: url(../img/400unusable.png) no-repeat;
+    background-size: 177px 154px;
+}
+
+.default-word{
+    position:relative;
+    bottom:-160px;
+    font-size: 14px;
+    text-align: center;
+    color: #999999;
+}
+
+.ali-icon:after{
+    background: url(../img/ali_pay1.png) no-repeat;
+    background-size: 30px 31px;
+    width:30px;
+    height: 31px;
+    content: "荐";
+    position: absolute;
+    right: 15%;
+    color: #3eb9f9;
+    text-align: center;
+    line-height: 31px;
+    font-size: 16px;
+}
+
+.wx-word{
+    background: url(../img/wx.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 6px;
+}
+
+.card-word{
+    background: url(../img/card_word.png) no-repeat;
+    position: relative;
+    top: 4px;
+}
+
+.bfb-word{
+    background: url(../img/baidu_pay.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 4px;
+    left: 6px;
+}
+
+.pay-content{
+    font-size:16px;
+    color:#ffffff;
+    line-height:44px;
+    width: 90px;
+    display: inline-block;
+    height: 28px;
+}
+
+.wx-pay{
+    background:#0dd10d;
+    border-radius:4px;
+    width:90%;
+    height:44px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.card-pay{
+    background:#ff8e30;
+    border-radius:4px;
+    width:90%;
+    height:44px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.bfb-pay{
+    background:#ff8e30;
+    border-radius:4px;
+    width:90%;
+    height:44px;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.top .debt{
+    position: relative;
+    left:-5%;
+    text-align: right;
+    padding-top:10px;
+    float:left;
+}
+
+.top .debt .word{
+    font-size: 16px;
+    color:#0bbe06;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.top .debt .word:after{
+    display: inline-block;
+    background:#ff4e4e;
+    width:8px;
+    height:8px;
+    border-radius:100%;
+    position: absolute;
+    top: 1px;
+    right: -8px;
+    content: "";
+}
+
+.top .debt .word-no-after{
+    font-size: 16px;
+    color:#0bbe06;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+}
+
+.balance-box{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.debt-box{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.wallet-content .balance-box .word{
+    font-size:12px;
+    color:#666666;
+    line-height:12px;
+    text-align:left;
+}
+
+.wallet-content .debt-box .word{
+    font-size:12px;
+    color:#666666;
+    line-height:12px;
+    text-align:left;
+}
+
+.wallet-content .balance-box .balance{
+    font-size:28px;
+    color:#0bbe06;
+    text-align:left;
+    margin-top: 35px;
+}
+
+.wallet-content .debt-box .debt{
+    font-size:28px;
+    color:#ff7400;
+    text-align:left;
+}
+
+.wallet-content .btn-box{
+    margin-top: 19px;
+    text-align: center;
+}
+
+.btn-box .btn-recharge{
+     display: inline-block;
+     border-radius:4px;
+     width:119px;
+     height:35px;
+     border:1px solid #0bbe06;
+     margin-bottom: 18px;
+ }
+
+.btn-recharge .re-name{
+    line-height: 36px;
+    font-size:16px;
+    color:#0bbe06;
+    letter-spacing:0px;
+}
+
+.btn-box .btn-debt{
+    display: inline-block;
+    border-radius:4px;
+    width:119px;
+    height:35px;
+    border:1px solid #ff7400;
+    margin-bottom: 18px;
+}
+
+.btn-debt .debt-name{
+    line-height: 35px;
+    font-size:16px;
+    color:#ff7400;
+    letter-spacing:0px;
+}
+
+.box-bottom{
+    border-bottom:25px solid #ffffff;
+    padding-top: 5px;
+    height: 144px;
+}
+
+.wallet-list{
+    position: absolute;
+    width:100%;
+    margin-top: 212px;
+    top: 0;
+}
+
+.trans-list{
+    position: absolute;
+    width:100%;
+    margin-top: 60px;
+    top: 0;
+}
+
+.wallet-list .wallet-title{
+    background:#ffffff;
+    width:100%;
+    height:45px;
+    line-height: 45px;
+    font-size:16px;
+    color:#353535;
+    letter-spacing:0.99px;
+    text-align:left;
+    padding-left: 5%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.pay-list-main .li-month{
+    background:#fafafa;
+    width:100%;
+    height:35px;
+    line-height: 35px;
+    padding-left: 5%;
+    font-size:14px;
+    color:#888888;
+    letter-spacing:0.86px;
+    text-align:left;
+}
+
+.pay-list-main .li-record{
+    padding: 0 5%;
+
+    height:65px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.pay-list-content .li-record p:nth-child(1){
+    font-size:16px;
+    color:#666666;
+    letter-spacing:0.99px;
+    text-align:left;
+    margin:10px 0;
+    height:18px;
+}
+
+.pay-list-content .li-record .fl p:nth-child(2){
+    font-size:13px;
+    color:#aaaaaa;
+    letter-spacing:0.8px;
+    text-align:left;
+    height:15px;
+}
+
+.pay-list-content .li-record .fr{
+    font-size:18px;
+    color:#222222;
+    letter-spacing:0.7px;
+    text-align:right;
+    margin-top:10px;
+}
+
+.pay-list-loading{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.disabled-btn{
+    display: inline-block;
+    border-radius:4px;
+    width:119px;
+    height:35px;
+    margin-bottom: 18px;
+    border:1px solid #aaaaaa;
+}
+
+.disabled-word{
+    line-height: 35px;
+    font-size:16px;
+    letter-spacing:0px;
+    color:#aaaaaa;
+}
+
+.pay-list-loading{
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+    display: block;
+}
+.pay-list-loading img{
+    vertical-align: middle;
+}
+
+.debt-list-content .fl p:nth-child(1){
+    color:#c1c1c6;
+    line-height: 65px;
+    font-size: 16px;
+}
+
+.debt-list-content .fr p:nth-child(1){
+    font-size: 25px;
+    display: inline-block;
+    line-height: 65px;
+    padding-right: 5px;
+    color: rgb(137, 137, 142);
+}
+
+.debt-list-content .fr p:nth-child(2){
+    font-size: 16px;
+    display: inline-block;
+    /* padding-right: 10px; */
+    color: rgb(137, 137, 142);
+}
+
+.repay-bg{
+    display:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:#000;
+    z-index:50;
+    top:0;
+    left:0;
+    opacity:0.7;
+}
+.repay-content{
+    display:none;
+    width: 270px;
+    height:211px;
+    position:fixed;
+    top:50%;
+    background:#ffffff;
+    z-index:100;
+    left:50%;
+    border-radius: 10px;
+    margin-top: -105px;
+    margin-left: -135px;
+}
+.repay-header{
+    color:#333333;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 16px;
+    border-bottom: 1px solid #c1c1c6;
+    padding-bottom: 5%;
+}
+.repay-body{
+    margin:3% 5%;
+    font-size: 14px;
+}
+
+.repay-details{
+    padding: 5px 5px;
+}
+
+.repay-details p:nth-child(1){
+    display: inline-block;
+    color:#666666;
+}
+
+.repay-details p:nth-child(2){
+    display: inline-block;
+    color:#666666;
+    float: right;
+}
+
+.repay-footer{
+    margin-top: 3%;
+    border-top: 1px solid #c1c1c6;
+}
+
+.repay-footer-btn{
+    display: inline-block;
+    height: 49px;
+    width: 130px;
+    line-height: 49px;
+    text-align: center;
+    font-size: 16px;
+}
+.repay-cancel{
+    color:#666666;
+    border-right: 1px solid #c1c1c6;
+    width: 49%;
+}
+
+.repay-recharge{
+    color: #0bbe06;
+    width: 49%;
+}
+
+.shutdown-pay{
+    background-color: #c1c1c6;
+    color:#ffffff;
+    font-size: 14px;
+}
+
+.code{
+    border: 1px solid #DEDEDE;
+    width:281px;
+    height: 281px;
+    margin: 24px auto;
+}
+
+.qrcode-title{
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+}
+.wxcode-title{
+    margin: 0 auto;
+    text-align: center;
+    height: 30px;
+}
+.qrcode-icon{
+    line-height: 30px;
+    display: inline-block;
+    width: 39px;
+    height: 30px;
+    background: url(../img/ali_pay_blue.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+}
+.wxcode-icon{
+    line-height: 30px;
+    display: inline-block;
+    width: 39px;
+    height: 30px;
+    background: url(../img/wx_green.png) no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+}
+
+.qrcode-word{
+    font-size: 16px;
+    color:#333333;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.QRCode{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.pay-result{
+    text-align: center;
+}
+
+.pay-result .result-icon{
+    width: 120px;
+    height: 120px;
+    margin-top: 105px;
+    text-align: center;
+    display: inline-block;
+}
+
+.pay-result .result-icon-success{
+    background: url(../img/pay-success.png) no-repeat;
+    background-size: contain;
+}
+.pay-result .result-icon-fail{
+    background: url(../img/pay-fail.png) no-repeat;
+    background-size: contain;
+}
+
+.pay-result .result-word{
+    margin-top: 30px;
+    font-size: 22px;
+    color: #333333;
+    line-height: 22px;
+}
+
+.pay-result .result-money{
+    margin-top: 1.5rem;
+}
+
+.pay-result .result-money p:nth-child(1){
+    display: inline-block;
+    font-size: 16px;
+    color: #999999;
+    line-height: 16px;
+}
+.pay-result .result-money p:nth-child(2){
+    display: inline-block;
+    font-size: 16px;
+    color: #ff7400;
+    line-height: 16px;
+}
+
+.pay-result .result-btn{
+    width: 89%;
+    line-height: 44px;
+    font-size: 16px;
+    border-radius: 4px;
+    color:#FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.pay-result .result-btn-success{
+    background: #0BBE06;
+}
+
+.pay-result .result-btn-fail{
+    background: #FF7400;
+}
+
+.fail-reason{
+    width: 89%;
+    text-align: left;
+    margin: 18px auto;
+    font-size: 14px;
+    color: #666666;
+    line-height: 26px;
+}
+
+.account-inquiries-tools {
+    background-color: #ffffff;
+}
+.account-inquiries-tools h4 {
+    font-size: 14px;
+    color: #333333;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 12px;
+}
+.account-inquiries-tools ul {
+    border-top: 1px solid rgba(235, 235, 235, 0.8);
+    border-bottom: 1px solid rgba(235, 235, 235, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.account-inquiries-tools ul li {
+    border-right: 1px solid rgba(235, 235, 235, 0.8);
+    list-style: none;
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    display: block;
+}
+.account-inquiries-tools ul li:last-child {
+    border-right: none;
+}
+.account-inquiries-tools ul li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.account-inquiries-tools ul li a img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+.account-inquiries-tools ul li a span {
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    text-align: center;
+    display: block;
+    margin: 14px auto 15px auto;
+}
+
+.debt-word {
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    text-align: center;
+    display: block;
+    margin: 14px auto 15px auto;
+}
+
+.debt-word::after {
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    text-align: center;
+    display: block;
+    margin: auto auto 13px auto;
+    background:#ff4e4e;
+    width:7px;
+    height:7px;
+    border-radius:100%;
+    position: relative;
+    top: -60px;
+    right: -20px;
+    content: "";
+}
+
+.debt-word-no-after{
+    font-size: 12px;
+    color: #333333;
+    line-height: 12px;
+    text-align: center;
+    display: block;
+    margin: 14px auto 15px auto;
+}
+.tips {
+    font-size: 12px;
+    color: #666666;
+    line-height: 16px;
+    padding: 15px 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f5f5;
+}
+.refundment-details {
+    background-color: #ffffff;
+}
+.refundment-details .refundment-header {
+    padding: 30px 20px 20px 20px;
+}
+.refundment-details .refundment-header h1{
+    font-size: 28px;
+    font-weight: normal;
+    color: #0BBE06;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 64px;
+}
+.refundment-details .refundment-header p{
+    font-size: 14px;
+    color: #999999;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+.refundment-details .body ul {
+    border-bottom: 1px solid rgba(235, 235, 235, 0.8);
+    padding-left: 12px;
+}
+.refundment-details .body ul li {
+    border-top: 1px solid rgba(235, 235, 235, 0.8);
+    list-style: none;
+    padding-right: 12px;
+}
+.refundment-details .body ul li::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.refundment-details .body ul span {
+    font-size: 14px;
+    color: #666666;
+    line-height: 50px;
+}
+.refundment-details .body ul .name {
+    float: left;
+}
+.refundment-details .body ul .content {
+    float: right;
+}
+.refundment-details .body ul .process {
+    width: 72%;
+    max-width: 320px;
+    min-width: 236px;
+    float: right;
+}
+.refundment-details .body ul .process ul {
+    border: none;
+    padding: 15px 0 15px 15px;
+}
+.refundment-details .body ul .process ul li {
+    list-style: none;
+    border: none;
+    background-image: url('../img/node_normal@2x.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 0 0;
+
+    height: 55px;
+    padding-left: 35px;
+    padding-right: 0;
+    position: relative;
+}
+.refundment-details .body ul .process ul li::after {
+    content: '';
+    background-color: #dedede;
+    display: block;
+    width: 1px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.refundment-details .body ul .process ul li:last-child {
+    height: 20px;
+}
+.refundment-details .body ul .process ul li:last-child::after {
+    display: none;
+}
+.refundment-details .body ul .process ul li .description{
+    font-size: 14px;
+    color: #dedede;
+    line-height: 20px;
+}
+.refundment-details .body ul .process ul li .time{
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+    float: right;
+}
+.refundment-details .body ul .process ul li.done {
+    background-image: url('../img/node_successful@2x.png');
+}
+.refundment-details .body ul .process ul li.done::after {
+    background-color: #0BBE06;
+}
+.refundment-details .body ul .process ul li.done .description {
+    color: #0BBE06;
+}

@@ -1,0 +1,430 @@
+body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {margin:0;padding:0;}
+body,button,input,select,textarea,pre {font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5FAE\8F6F\96C5\9ED1,sans-serif;}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea {font-size:100%;}
+label,input,select {vertical-align:middle;outline:none;}
+address,cite,em {font-style:normal;}
+fieldset,img {border:none;}
+ul,ol {list-style:none;}
+table {border-collapse:collapse}
+sub {vertical-align:text-bottom;}
+sup {vertical-align:text-top;}
+small {font-size:12px;}
+legend {color:#555;}
+*{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+a,input,button{ outline:none;}
+a,a:hover{color:#0749d1;text-decoration:none}
+a:hover{text-decoration:none}
+div,li,ul,span{
+    box-sizing: border-box;
+}
+/*活动详情*/
+.top{
+    top:0;
+    background:#ffffff;
+    box-shadow:0px 1px 0px 0px #ebebeb;
+    width:100%;
+    position: fixed;
+    height:44px;
+    z-index:30;
+}
+.top .left{
+    float: left;
+    width:10%;
+    background: url(../img/back.png) no-repeat;
+    background-size: 11px 20px;
+    height: 44px;
+    background-position: 16px;
+}
+.top .center{
+    width:80%;
+    float: left;
+    font-size:18px;
+    color:#353535;
+    line-height: 44px;
+    text-align:center;
+}
+.top .right{
+    width:10%;
+    float: right;
+    font-size:18px;
+    color:#353535;
+    line-height: 44px;
+    text-align:center;
+}
+.content .title{
+    font-size:20px;
+    line-height: 60px;
+    color:#333333;
+    text-align:center;
+}
+.content .font{
+    float: left;
+    width:80%;
+    color:#666;
+    font-size:14px;
+    line-height:34px;
+    margin-left: 10%;
+    text-indent: 40px;
+}
+.Cashier{
+    background: url(../img/bg_1.png) no-repeat;
+    background-size: 100% auto;
+    width:100%;
+    height:170px;
+}
+.Cashier span{
+    float:left;
+    font-family:sans-serif;
+    font-size:30px;
+    color:#ffffff;
+    line-height:30px;
+    width:100%;
+    margin-top: 70px;
+    text-align:center;
+}
+
+.Cashier span:nth-child(2){
+    font-family:sans-serif;
+    font-size:14px;
+    color:#ffffff;
+    line-height:14px;
+    width:100%;
+    text-align:center;
+    margin-top: 10px;
+}
+.btn_zfb{
+    background:#3eb9f9;
+    border-radius:22px;
+    height:44px;
+    width:90%;
+    margin-left: 5%;
+    margin-top:36px;
+}
+.btn_wx{
+    background:#0dd10d;
+    border-radius:22px;
+    height:44px;
+    width:90%;
+    margin-left: 5%;
+    margin-top:30px;
+}
+.btn_wx .left{
+    float: left;
+    background: url(../img/wx.png) no-repeat;
+    background-size: 100% 100%;
+    width:24px;
+    height:20px;
+    margin-left: 36%;
+    margin-top: 12px;
+}
+.btn_zfb .left{
+    float: left;
+    background: url(../img/zfb.png) no-repeat;
+    background-size: 100% 100%;
+    width:24px;
+    height:20px;
+    margin-top: 10px;
+    margin-left: 36%;
+}
+
+.btn_wx .right{
+    float: left;
+    margin-top: 12px;
+    font-size:16px;
+    text-indent: 5px;
+    color: #fff;
+}
+
+.btn_zfb .right{
+    float: left;
+    text-indent: 5px;
+    font-size:16px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.btn_zfb .recommend{
+    float: left;
+    background: url(../img/button_2.png) no-repeat;
+    background-size: 100% 100%;
+    width:30px;
+    height:32px;
+    margin-left: 30px;
+}
+.box_border{
+    background: url(../img/bg_image_head.png) no-repeat, url(../img/bg_image_footer.png)no-repeat #f87b5c;
+    background-size: 100% auto, 100% auto;
+    background-position: top left, right bottom;
+    width:100%;
+    position: absolute;
+    padding-bottom: 20px;
+    margin-top:64px;
+    
+}
+.box_border .left{
+    width: 43%;
+    background: #ffffff;
+    border-radius: 6px;
+    height: 66px;
+    float: left;
+    margin-left: 5%;
+    border:1px solid #c4362c;
+    margin-bottom:5px;
+    position: relative;
+}
+.box_border .right{
+    width: 43%;
+    background: #ffffff;
+    border-radius: 6px;
+    height: 66px;
+    border:1px solid #c4362c;
+    float: right;
+    margin-right: 5%;
+    margin-bottom:5px;
+    position: relative;
+}
+.box_border .left span:nth-child(1){
+    margin-top: 17px;
+    margin-left: 8px;
+    font-size: 20px;
+
+    float: left;
+}
+.box_border .left span:nth-child(2){
+    margin-top: 20px;
+    font-size: 16px;
+    float: left;
+    color: #666666;
+    margin-left: 5px;
+}
+.box_border .right span:nth-child(1){
+    margin-top: 17px;
+    margin-left: 8px;
+    font-size: 20px;
+    float: left;
+}
+.box_border .right span:nth-child(2){
+    margin-top: 20px;
+    font-size: 16px;
+    float: left;
+    margin-left: 5px;
+    color: #666666;
+}
+.box_border .green{
+    color: #0bbe06;
+}
+.box_border .red{
+    color: #db1010;
+}
+.box_border .icon{
+    background: url(../img/selected.png)no-repeat;
+    background-size: 100% 100%;
+    width: 28px;
+    height: 28px;
+    /*position: relative;*/
+    right: 0;
+    float: right;
+    position: absolute;
+    bottom: 0;
+}
+.box_border .money{
+    margin-top: 162px;
+    height: 75px;
+}
+
+/*iphone5*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .box_border .money{
+        margin-top: 150px;
+    }
+}
+/*iphone6*/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px){
+    .box_border .money{
+        margin-top: 174px;
+    }
+}
+
+/*iphone6 plus*/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px){
+    .box_border .money{
+        margin-top: 188px;
+    }
+}
+
+.input{
+    background: #ffffff;
+    border-radius: 4px;
+    width: 90%;
+    margin-top:12px;
+    height: 43px;
+    margin-left: 5%;
+}
+.input span:nth-child(1){
+    font-size:22px;
+    color:#bdbdbd;
+    line-height:44px;
+    text-align:left;
+}
+.input span input{
+    width: 80%;
+    height: 33px;
+    margin-top: -10px;
+    border: 0px;
+    font-size:16px;
+    color:#999999;
+    text-align:left;
+}
+.btn img{width: 100%;}
+.btn{
+    /*background-image:linear-gradient(-180deg, #fff900 0%, #ffd700 100%);*/
+    /*border-radius:4px;*/
+    width:90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    /*text-align: center;
+    height:50px;
+    font-size:22px;
+    color:#c4362c;
+
+    line-height: 48px;
+    font-weight: bold;*/
+}
+
+.bg{
+    background: url(../img/bg.png) no-repeat;
+    background-size: 100% auto;
+    width: 90%;
+    height: 130px;
+    margin-left: 5%;
+    margin-top: 20px;
+    font-size:16px;
+    color:#333333;
+    line-height:28px;
+    padding-top: 15px;
+    text-align:center;
+}
+.bg span{
+    color:#f67c09;
+}
+/*iphone5*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .bg{
+        height: 92px;
+        font-size:15px;
+        line-height:23px;
+        padding-top: 14px;
+    }
+}
+/*iphone6*/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px){
+    .bg{
+        height: 105px;
+        font-size:16px;
+        line-height:25px;
+        padding-top: 18px;
+    }
+}
+
+/*iphone6 plus*/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px){
+    .bg{
+        height: 112px;
+        font-size:17px;
+        line-height:27px;
+        padding-top: 19px;
+    }
+}
+.font{
+    width: 88%;
+    margin-left: 6%;
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 22px;
+    padding-top: 6%;
+
+}
+.btn_bottom{
+    background: #f87b5c;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 133px;
+    height: 34px;
+    left: 50%;
+    position: relative;
+    margin-left: -66px;
+    text-align: center;
+    line-height: 34px;
+    margin-top: 15px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+.btn_bottom a{color: #fff;}
+.box_border .left_01{
+    width: 30%;
+    background: #ffffff;
+    border-radius: 6px;
+    height: 66px;
+    position: relative;
+    float: left;
+    margin-left: 2%;
+    font-size: 22px;
+    color: #0bbe06;
+    line-height: 66px;
+    text-align: center;
+    margin-top: 8px;
+    border:1px solid #c4362c;
+}
+
+.box_border .money.moneys{
+    height:154px;
+}
+.box_border .icons {
+    background: url(../img/selected.png)no-repeat;
+    background-size: 100% 100%;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 39px;
+    right: 0px;
+    float: right;
+}
+
+.red{
+    background:#ffffff;
+    border:1px solid #c4362c;
+    border-radius:6px;
+    width:102.65625px;
+    height:63.65625px;
+    color: #db1010 !important;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.mask{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+}
+

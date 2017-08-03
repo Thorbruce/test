@@ -1,0 +1,140 @@
+h3 {
+  font-weight: normal;
+}
+.pay-time {
+  background: #F9E8CB;
+  font-size: 12px;
+  color: #FF7C10;
+  padding: 7px 12px;
+}
+.pay-time em {
+  font-weight: bold;
+}
+.scenic-order {
+  background: #fff;
+  margin-bottom: 10px;
+}
+.scenic-order .text {
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 12px 12px 9px 12px;
+  display: block;
+}
+.scenic-order .title {
+  line-height: 2em;
+  border-bottom: 1px solid #dedede;
+  padding: 0px 12px 10px;
+}
+.scenic-order .title span {
+  color: #999;
+  font-size: 12px;
+}
+.scenic-order .title span em {
+  color: #FF7C10;
+  font-size: 14px;
+}
+.scenic-order .title span em .rmb {
+  font-style: normal;
+  font-size: 14px;
+}
+.scenic-order .title:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.scenic-order .conent {
+  padding: 12px;
+  display: none;
+  border-bottom: 1px solid #dedede;
+}
+.scenic-order .conent span {
+  display: block;
+  line-height: 25px;
+  font-size: 12px;
+  color: #999;
+}
+.scenic-order .conent span em {
+  color: #4a4a4a;
+}
+.pay-way {
+  margin-bottom: 100px;
+}
+.pay-way li {
+  background: #fff;
+  border-bottom: 1px solid #dedede;
+  padding: 9px 12px;
+}
+.pay-way li .icon {
+  display: block;
+  width: 28px;
+  margin-top: 7px;
+}
+.pay-way li .icon img {
+  display: block;
+  width: 100%;
+}
+.pay-way li .tit {
+  margin-left: 10px;
+}
+.pay-way li .tit h3 {
+  line-height: 0;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+.pay-way li .tit p {
+  color: #999;
+  font-size: 10px;
+  margin: 0;
+}
+.pay-way li .choose-pay {
+  padding-top: 10px;
+  width: 20px;
+}
+.pay-way li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pay-money-s-order {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.pay-money-s-order:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.pay-money-s-order .pay-money {
+  display: inline-block;
+  width: 60%;
+  background: #fff;
+  padding-left: 12px;
+  box-sizing: border-box;
+  color: #9b9b9b;
+  font-size: 10px;
+}
+.pay-money-s-order .pay-money em {
+  color: #FF7C10;
+  font-size: 14px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.pay-money-s-order .pay-money em i {
+  font-style: normal;
+}
+.pay-money-s-order .submit-order-btn {
+  display: inline-block;
+  width: 40%;
+  background: #FF7C10;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 2.8em;
+}

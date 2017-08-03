@@ -1,0 +1,34 @@
+/* @font-face{ font-family:meicai-webfont;
+           src:url("meicai-webfont.eot?bbyko2");
+           src:url("meicai-webfont.eot?bbyko2#iefix") format("embedded-opentype"),
+              url("meicai-webfont.ttf?bbyko2") 
+            format("truetype"),url("meicai-webfont.woff?bbyko2") format("woff"),
+            url("meicai-webfont.svg?bbyko2#meicai-webfont") format("svg");
+}
+
+.mui-icon-extra2
+{
+    font-family: meicai-webfont;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.meicai-icon1:before{content:"E959"}
+
+ */
+
+
+body{background:#fff;}
+
+.mui-search .mui-placeholder{text-align:left;padding-left:8px;}
+.indexjge{margin:5px 0;}
+
+.mui-bar-tab span{display:block;font-size:12px;text-align:center;}
+.mui-bar-tab span b{font-size:20px;}
+.mui-tab-item2 {height:30px;}
